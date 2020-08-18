@@ -1,0 +1,80 @@
+.el-message-box {
+	width: auto;
+}
+:focus{
+	outline: none;
+}
+
+.el-message-box__message p{
+	width: 300px;
+	padding:0 10px;
+	font-size: 16px
+}
+.el-button--primary{
+	background-color: #ff6700;
+	border-color: #ff6700
+}
+.el-button--primary:focus, .el-button--primary:hover{
+	background-color: #f25807;
+	border-color: #f25807;
+}
+.el-carousel__indicators--horizontal {
+	-webkit-transform: translateX(490px);
+	transform: translateX(490px);
+}
+
+
+.el-carousel__button {
+	width: 10px;
+	height: 10px;
+	background-color: #666;
+	border-radius: 50%;
+	border: 2px solid #999;
+}
+
+.el-carousel__indicator.is-active button {
+	background-color: #ddd;
+}
+
+.el-carousel__arrow--left {
+	position: absolute;
+	left: 0;
+	background-color: rgba(0, 0, 0, .0);
+}
+
+.el-carousel__arrow--left:hover {
+	background-color: rgba(0, 0, 0, .3);
+	color: #fff;
+}
+
+.el-carousel__arrow--right {
+	position: absolute;
+	right: 0;
+	background-color: rgba(0, 0, 0, .0);
+}
+
+.el-carousel__arrow--right:hover {
+	background-color: rgba(0, 0, 0, .3);
+	color: #fff;
+}
+
+.el-carousel__arrow {
+	border-radius: 5px;
+	height: 69px;
+	width: 41px;
+	font-size: 40px;
+	color: #ccc;
+	z-index: 3;
+}
+
+.el-checkbox__input.is-focus .el-checkbox__inner {
+	border-color: #ddd;
+}
+.el-checkbox__inner:hover{
+	border-color: #ff6700;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+	border-color: #ff6700;
+	background-color: #ff6700;
+}
