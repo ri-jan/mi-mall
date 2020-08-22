@@ -209,7 +209,7 @@
 			.mainNavInfoActive {
 				display: block;
 				height: 220px;
-				width: 100vw;
+				width: 100%;
 				// animation: fadeInDown;
 				// animation-duration: 0.5s;
 				z-index: 12;
